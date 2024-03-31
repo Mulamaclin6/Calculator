@@ -1,0 +1,73 @@
+/* CSS Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  height: fit-content;
+}
+
+.container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  grid-auto-rows: minmax(80px, auto);
+  gap: 5px;
+  max-width: 400px;
+}
+
+.dis {
+  grid-column: 1 / span 4;
+  background-color: black;
+  color: white;
+  text-align: right;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.dis input {
+  width: 100%;
+  background-color: black;
+  color: rgb(41, 21, 224);
+  border: none;
+  font-size: 24px;
+  text-align: right;
+}
+
+.total {
+  color: rgb(230, 13, 132);
+  font-size: 20px;
+}
+
+.padButton {
+  background-color: rgb(43, 230, 26);
+  color: rgb(203, 245, 14);
+  border: none;
+  font-size: 24px;
+  font-style: italic;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.padButton:hover {
+  background-color: #bbb7b7;
+}
+
+.dark-gray {
+  background-color: #333;
+}
+
+.tomato {
+  background-color: rgb(14, 10, 224);
+}
+
+.blue {
+  background-color: #f71fc1;
+}
